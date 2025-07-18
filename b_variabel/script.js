@@ -1,4 +1,5 @@
-// Ini adalah comment di JavaScript
+// Deklarator namaVariabel;                 deklarasi
+// Deklarator namaVariabel = value;         inisialisasi
 
 //* 1. Variable dengan let
 let nama = "Ucup Surucup";

@@ -1,4 +1,4 @@
-console.log("Ini adalah Javascript dari External")
+console.log("Hello, World!")
 
-ayam = "hewan"
-console.log(ayam)
+nama = "Putra Dae"
+console.log(nama)
