@@ -1,4 +1,4 @@
-// Ada x tipe data di javascript:
+// Ada 7 tipe data Primitif / Built-in di javascript:
 
 //* String
 let dataString1 = "Ucup";                                           
