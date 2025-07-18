@@ -18,7 +18,7 @@ console.log(x++);
 console.log(x);
 
 let y = 10;
-console.log(y--);
-console.log(--y);
+console.log(y--);   // Post, Nilai berubah setelahnya
+console.log(--y);   // Pre, Nilai berubah langsung
 console.log(y);
 
