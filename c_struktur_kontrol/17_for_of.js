@@ -1,4 +1,4 @@
-// Iterasi langsung ke nilai iterable (Array, String, Set, Map, dll). 
+// Iterasi langsung ke nilai pada iterable (Array, String, Set, Map, dll). 
 // Lebih bersih dari for biasa
 
 const tools = ["Git", "Github", "VS Code"];     // array
