@@ -14,4 +14,4 @@ sayHi();
 sayHi();
 
 const multiply = (a, b) => a * b;   // arrow function
-console.log(multiply(2, 3));
+console.log(multiply(2, 3)); 

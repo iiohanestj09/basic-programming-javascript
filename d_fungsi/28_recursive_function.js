@@ -16,4 +16,4 @@ const factorial3 = n => (n === 0 || n === 1)? 1 : n * factorial3(n - 1);
 
 console.log(factorial1(5));
 console.log(factorial2(5));
-console.log(factorial3(5));
+console.log(factorial3(5)); 
