@@ -20,4 +20,4 @@ for (let i = 0; i < 2; i++) {
     console.log(blockVar);      // Bisa diakses
 }
 
-// console.log(blockVar);          Tidak bisa diakses
+// console.log(blockVar);          Tidak bisa diakses 

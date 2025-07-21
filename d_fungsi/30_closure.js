@@ -28,6 +28,6 @@ hitung();       // 2
 hitung();       // 3
 
 const coba = createCounter();
-coba();         // 1
+coba();         // 1 
 coba();         // 2
 // Fungsi hasil return tetap dapat diakses meskipun functin createCounter sudah selesai dipanggil
