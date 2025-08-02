@@ -28,4 +28,4 @@ console.log(user?.profile?.alamat?.jalan.apalah); // akan undefined
 
 // 3. Nullish Coalescing, beri nilai default
 console.log(user?.tambahan?.["gol darah"]);
-console.log(user?.tambahan?.apalah ?? "Kosong Broo!");
+console.log(user?.tambahan?.apalah ?? "Kosong Broo!");  // Akan tampil 'Kosong Bro' karena key apalah tidak ada
