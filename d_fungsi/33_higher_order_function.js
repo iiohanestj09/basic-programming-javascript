@@ -1,4 +1,4 @@
-/* HOF adalh fungsi yang:
+/* HOF adalah fungsi yang:
 - Menerima fungsi lain sebagai argumen, atau      --> Calback Function
 - Mengembalikkan fungsi lain sebagai hasil
 */  
