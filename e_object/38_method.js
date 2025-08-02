@@ -18,3 +18,16 @@ const coba = {
 }
 coba.greet();
 console.log(coba.multiply(2));
+
+// Versi Function Expression sebagai object method (Lebih singkat)
+const coba2 = {
+    greet2() {
+        console.log("Hhaalloo Dduunniiaa!!")
+    },
+    angka2: 8,
+    multiply2(n) {
+        return this.angka2 * n;
+    }
+}
+coba2.greet2();
+console.log(coba2.multiply2(2));
