@@ -39,3 +39,10 @@ const buku = {
     [contohKey]: "Belajar Js"
 };
 console.log(buku.judul);
+
+
+// 5. Penggabungan object
+const a = { name: "Putra" };
+const b = { umur: 20 };
+const merged = Object.assign({}, a, b);
+console.log(merged);
