@@ -43,3 +43,16 @@ const fullName = (first, last) => {
 let namaLengkap = fullName("Bambang", "Sudirman");
 console.log(namaLengkap);
 console.log(fullName("Putra", 99))
+
+
+// Nested Arrow Function
+// Versi Original
+const multiplyAndSum = (a, b) => {
+    const doubleX = x => x * 2;
+    return a * b + doubleX(a);
+}
+console.log(multiplyAndSum(3, 5));
+
+// Versi Singkat
+const sumAndMultiply = (a, b) => a * b + ((x) => x * 2)(a);
+console.log(sumAndMultiply(3, 5));
