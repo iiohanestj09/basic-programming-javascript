@@ -16,11 +16,11 @@ const pengguna = {
 
 
 // 2. Mengakses Properti ada 2 cara
-    // A. Dot Notation
+  // A. Dot Notation
 console.log(pengguna.nama);
 console.log(pengguna.greet());
 
-    //B. Bracket Notation
+  //B. Bracket Notation
 console.log(pengguna["nama"]);
 console.log(pengguna["greet"]());
 
