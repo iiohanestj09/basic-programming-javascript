@@ -6,6 +6,9 @@
 const awal = [];
 const fruits = ["Mangga", "Apel", "Jeruk"];
 const mixed = ["Putra", 20, true, 9.99, null, undefined];
+//& Note: Penggunaan const pada sebuah arr itu normal
+//& karena referensi ke array nya yang konstan (tidak bisa diganti), tapi isinya bisa dimodifikasi
+// fruits = [1, 2, 3]       ini akan Error karena REFERENSI arr 'fruits' tidak bisa diubah (konstan)
 
   // B. Menggunakan Constructor
 const items = new Array("Lima", 5, true);
@@ -31,21 +34,3 @@ console.log(3 in fruits);   //& Slot kosong itu sepenuhnya bukan undefined;
 
 console.log(fruits.length)
 console.log(coba.length)
-
-
-/* Menambah & Menghapus elemen (Basic) 
-- Menambah di akhir .push()
-- Menghapus di akhir .pop()
-- Menambah di awal .unshift()
-- Menghapus di akhir .shift()
-*/ 
-
-//& Note: Penggunaan const pada sebuah arr itu normal
-//& karena referensi ke array nya yang konstan (tidak bisa diganti), tapi isinya bisa dimodifikasi
-
-const contoh = [1, 2, 3];
-contoh.push("tambahAkhir");
-contoh.unshift("tambahAwal");
-console.log(contoh);
-
-// contoh = [7, 8, 9]       ini akan Error karena REFERENSI arr 'contoh' tidak bisa diubah (konstan)
