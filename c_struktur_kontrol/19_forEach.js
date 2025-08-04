@@ -1,4 +1,4 @@
-// Method modern, Lebih dejlaratif daripada loop klasik.
+// Method modern, Lebih deklaratif daripada loop klasik.
 // Tidak bisa pakai break atau continue.
 
 const langs = ["C++", "C", "Go", "Python", "Javascript"];
