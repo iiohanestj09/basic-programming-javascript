@@ -32,5 +32,6 @@ console.log(fruits);
 console.log(3 in fruits);   //& Slot kosong itu sepenuhnya bukan undefined;
 //& Jadi method seperti map() dan forEach() akan melewati Slot Kosong tersebut
 
-console.log(fruits.length)
-console.log(coba.length)
+// 3. Panjang Array
+console.log(fruits.length);     // .length akan menghitung empty slot juga
+console.log(coba.length);
