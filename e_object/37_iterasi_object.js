@@ -9,6 +9,7 @@ for (let key1 in user) {
     console.log(key1, user[key1]);
 }
 
+// # Iterasi Khusus ini berlaku utk Object, Set, Map
 
 // 2. Object.keys()
 // Mengambil array berisi semua key milik object
