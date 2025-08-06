@@ -19,11 +19,12 @@ console.log(anak.pekerjaan);
 
 const user = {
     nama: "Putra",
-    greet() {
-        console.log(`Haloo Guniaa, dari ${this.nama}`);
-    }
+    umur: 20
 };
 
 const penyurat = Object.create(user);   // object baru, anak dari 'user'
 penyurat.tujuan = "Drian";
-penyurat.greet();
+
+user.pet = "Anjing";
+console.log(user);
+console.log(penyurat.pet);
