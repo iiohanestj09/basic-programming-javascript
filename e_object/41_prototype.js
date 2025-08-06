@@ -3,7 +3,6 @@
 - Isinya adalah referensi ke objek prototype parent-nya
 - Tujuannya: kalauh sebuah objek tidak memiliki properti/method yang diminta, JS akan mencari ke atas melalui __proto__. Akan berhenti jika ketemu atau tidak ada sama sekali hingga akhir.
 */
-
 const induk = { pekerjaan: "Programmer" };
 const anak = { nama: "Jonathan" };
 
@@ -16,7 +15,6 @@ console.log(anak.pekerjaan);
 // 2. Object.create(protoObj)
 // Membuat object baru dan menentukan siapa "induk"-nya.
 // Object baru itu akan mewarisi properti dan method dari yang ditentukan sebelumnya
-
 const user = {
     nama: "Putra",
     umur: 20
