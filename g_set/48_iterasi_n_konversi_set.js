@@ -1,9 +1,8 @@
 // 1. Iterasi Set
 // Untuk akses elemen Set, gunakan looping untuk setiap elemen
 
-  // A. for ... of
+  // A. for...of
   const buah = new Set(["Apel", "Mangga", "Anggur", "Apel"]);
-
   for (const item of buah) {
     console.log(item);
   }
