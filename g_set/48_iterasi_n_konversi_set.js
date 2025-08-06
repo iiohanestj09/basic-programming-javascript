@@ -1,6 +1,5 @@
 // 1. Iterasi Set
 // Untuk akses elemen Set, gunakan looping untuk setiap elemen
-
   // A. for of
   const buah = new Set(["Apel", "Mangga", "Anggur", "Apel"]);
   for (const item of buah) {
@@ -10,11 +9,23 @@
   // B. .forEach()
   buah.forEach((item) => console.log(item));
 
-  // C. Ada di poin Iterasi Khusus pada 37_iterasi_object
+  // C. .values()
+  for (const item of buah.values()) {
+    console.log(item);
+  }
 
+  // D. .keys(), di Set .values() dan .set() SAMA
+  for (const item of buah.keys()) {
+    console.log(item);
+  }
+
+  // E. .entries(), mengembalikan [value, value] karena tidak ada key
+  for (const [key, val] of buah.entries()) {
+    console.log(`${key} -> ${val}`)
+  }
+  
   
 // 2. Konversi Array <-> Set
-
   // A. Array -> Set  (Harus duplikat)
   const data = [1, 2, 2, 3];
   const unik = new Set(data);
