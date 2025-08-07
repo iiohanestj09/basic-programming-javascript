@@ -33,7 +33,6 @@
   console.log(arr3);
   console.log(arr3Salin);
   
-
   const obj3 = { a: 2, b: { c: 3 } };
   const obj3Salin = { ...obj3 };
   obj3Salin.b.c = 9;            // 3 akan diganti 9 pada versi asli dan salin
