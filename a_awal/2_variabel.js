@@ -35,7 +35,7 @@ var namaTengah = "Keren";
 console.log(namaTengah);
 
 // Kelakuan let akan tergantung dari scope nya, sedangak var ini global dimanapun dia berada
-// Ketika var berada di dalam maupun di luar, dia akan tetap merubah nilai parent, bahkan mendeklarasi variabel baru, kayak baris 31 --> Overwrite. var ini akan mengambil code paling bawah yang dieksekusi, jadi antara 29 dan 31, dia akan mengeksekusi baris yang 31
+// Ketika var berada di dalam maupun di luar, dia akan tetap merubah nilai parent, bahkan mendeklarasi variabel baru, kayak baris 32 --> Overwrite. var ini akan mengambil code paling bawah yang dieksekusi, jadi antara 29 dan 31, dia akan mengeksekusi baris yang 31
 
 
 //* Kasus khusus tanpa keyword == var
