@@ -5,7 +5,6 @@ const myMap1 = new Map([
     ['a', 1],
     ['b', 2]
 ]);
-
 const arr1 = [...myMap1];
 console.log(arr1);
 
