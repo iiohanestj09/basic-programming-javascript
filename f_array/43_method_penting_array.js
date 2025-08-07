@@ -54,7 +54,7 @@ coba3.splice(9, 0, "Woilah");
 console.log(coba3);    // Tidak ada empty slot jika akses diluar batas
 
 
-// .indexof()  -> Menemukan index sebuah elemen pertama dari kanan array juga sebuah substring (5_operasi_string)
+// .indexof()  -> Menemukan index sebuah elemen pertama dari kiri array juga sebuah substring (5_operasi_string)
 const mixed = [10, undefined ,"ayam", 20, true, "ayam", 300, "ayam", "ayam", false, null];
 console.log(mixed.indexOf("ayam"));
 
