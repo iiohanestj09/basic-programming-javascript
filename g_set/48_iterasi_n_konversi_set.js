@@ -14,7 +14,7 @@
     console.log(item);
   }
 
-  // D. .keys(), di Set .values() dan .set() SAMA
+  // D. .keys(), di Set .values() dan .keys() SAMA
   for (const item of buah.keys()) {
     console.log(item);
   }
