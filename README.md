@@ -6,3 +6,4 @@
 |                                                                      | [Basic Programming Python](https://github.com/iiohanestj09/basic-programming-python)          |
 |                                                                      | [Basic Programming PHP](https://github.com/iiohanestj09/basic-programming-php)                |
 |                                                                      | [Basic Programming Go](https://github.com/iiohanestj09/basic-programming-go)                  |
+|                                                                      | [Basic Programming Java](https://github.com/iiohanestj09/basic-programming-java)              |
